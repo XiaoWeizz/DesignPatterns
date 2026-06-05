@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C17B631E-944A-4E91-985E-1ECE03E0B828}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EVPP.Data.Model</RootNamespace>
+    <AssemblyName>EVPP.Data.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\src\BusinessModel\XFBusiDataTypeModel.cs" Link="BusinessModel\XFBusiDataTypeModel.cs" />
+    <Compile Include="..\..\src\BusinessModel\XFBusinessMod.cs" Link="BusinessModel\XFBusinessMod.cs" />
+    <Compile Include="..\..\src\CPUModel\CpuModelInfo.cs" Link="CPUModel\CpuModelInfo.cs" />
+    <Compile Include="..\..\src\CPUModel\CpuPinBlockInfo.cs" Link="CPUModel\CpuPinBlockInfo.cs" />
+    <Compile Include="..\..\src\CPUModel\CpuPinInfo.cs" Link="CPUModel\CpuPinInfo.cs" />
+    <Compile Include="..\..\src\CPUModel\XFCPUModel.cs" Link="CPUModel\XFCPUModel.cs" />
+    <Compile Include="..\..\src\CPUModel\XFCPUPinNoLibModel.cs" Link="CPUModel\XFCPUPinNoLibModel.cs" />
+    <Compile Include="..\..\src\ElementBaseModel\SimpleElemInfo.cs" Link="ElementBaseModel\SimpleElemInfo.cs" />
+    <Compile Include="..\..\src\ElementBaseModel\XFAlgoCRepository.cs" Link="ElementBaseModel\XFAlgoCRepository.cs" />
+    <Compile Include="..\..\src\ElementBaseModel\XFAlgoCUCfg.cs" Link="ElementBaseModel\XFAlgoCUCfg.cs" />
+    <Compile Include="..\..\src\ElementBaseModel\XFComponentGroup.cs" Link="ElementBaseModel\XFComponentGroup.cs" />
+    <Compile Include="..\..\src\ElementBaseModel\XFElementFacade.cs" Link="ElementBaseModel\XFElementFacade.cs" />
+    <Compile Include="..\..\src\ElementCompModel\XFElementContent.cs" Link="ElementCompModel\XFElementContent.cs" />
+    <Compile Include="..\..\src\FunctionModel\FuncInterfaceInfo.cs" Link="FunctionModel\FuncInterfaceInfo.cs" />
+    <Compile Include="..\..\src\FunctionModel\XFAbilityModel.cs" Link="FunctionModel\XFAbilityModel.cs" />
+    <Compile Include="..\..\src\FunctionModel\XFFuncDataTypeModel.cs" Link="FunctionModel\XFFuncDataTypeModel.cs" />
+    <Compile Include="..\..\src\FunctionModel\XFFuncModuleCfg.cs" Link="FunctionModel\XFFuncModuleCfg.cs" />
+    <Compile Include="..\..\src\FunctionModel\XFFunctionIndex.cs" Link="FunctionModel\XFFunctionIndex.cs" />
+    <Compile Include="..\..\src\ModuleDesignModel\ETypeEnum.cs" Link="ModuleDesignModel\ETypeEnum.cs" />
+    <Compile Include="..\..\src\ModuleDesignModel\EVPFunction.cs" Link="ModuleDesignModel\EVPFunction.cs" />
+    <Compile Include="..\..\src\ModuleDesignModel\EVPType.cs" Link="ModuleDesignModel\EVPType.cs" />
+    <Compile Include="..\..\src\ModuleDesignModel\EVPVariable.cs" Link="ModuleDesignModel\EVPVariable.cs" />
+    <Compile Include="..\..\src\ModuleDesignModel\VariableCollection.cs" Link="ModuleDesignModel\VariableCollection.cs" />
+    <Compile Include="..\..\src\ModuleDesignModel\VisualFunction.cs" Link="ModuleDesignModel\VisualFunction.cs" />
+    <Compile Include="..\..\src\ModuleDesignModel\VisualType.cs" Link="ModuleDesignModel\VisualType.cs" />
+    <Compile Include="..\..\src\ModuleDesignModel\VisualVariable.cs" Link="ModuleDesignModel\VisualVariable.cs" />
+    <Compile Include="..\..\src\Packages\EPackageType.cs" Link="Packages\EPackageType.cs" />
+    <Compile Include="..\..\src\Packages\XFModuleCfg.cs" Link="Packages\XFModuleCfg.cs" />
+    <Compile Include="..\..\src\Packages\XFResourcePackage.cs" Link="Packages\XFResourcePackage.cs" />
+    <Compile Include="..\..\src\PeripheralModel\PeripheralInfo.cs" Link="PeripheralModel\PeripheralInfo.cs" />
+    <Compile Include="..\..\src\PeripheralModel\XFFailureList.cs" Link="PeripheralModel\XFFailureList.cs" />
+    <Compile Include="..\..\src\PeripheralModel\XFPeriDataTypeModel.cs" Link="PeripheralModel\XFPeriDataTypeModel.cs" />
+    <Compile Include="..\..\src\PeripheralModel\XFPeripheralList.cs" Link="PeripheralModel\XFPeripheralList.cs" />
+    <Compile Include="..\..\src\PeripheralModel\XFPeripheralMod.cs" Link="PeripheralModel\XFPeripheralMod.cs" />
+    <Compile Include="..\..\src\PeripheralModel\XFPeripheralModel.cs" Link="PeripheralModel\XFPeripheralModel.cs" />
+    <Compile Include="..\..\src\PlatformLibModel\AbilityInfo.cs" Link="PlatformLibModel\AbilityInfo.cs" />
+    <Compile Include="..\..\src\PlatformLibModel\ArchElement.cs" Link="PlatformLibModel\ArchElement.cs" />
+    <Compile Include="..\..\src\PlatformLibModel\XFAbilitys.cs" Link="PlatformLibModel\XFAbilitys.cs" />
+    <Compile Include="..\..\src\PlatformLibModel\XFAppPlatformModel.cs">
+      <Link>PlatformLibModel\XFAppPlatformModel.cs</Link>
+    </Compile>
+    <Compile Include="..\..\src\PlatformLibModel\XFCompileConfig.cs" Link="PlatformLibModel\XFCompileConfig.cs" />
+    <Compile Include="..\..\src\PlatformLibModel\XFPlatformIndex.cs" Link="PlatformLibModel\XFPlatformIndex.cs" />
+    <Compile Include="..\..\src\PlatformLibModel\XFRunPlatformModel.cs" Link="PlatformLibModel\XFRunPlatformModel.cs" />
+    <Compile Include="..\..\src\PlatformLibModel\XFSHMapModel.cs" Link="PlatformLibModel\XFSHMapModel.cs" />
+    <Compile Include="..\..\src\PlatformLibModel\XFTransactionModel.cs" Link="PlatformLibModel\XFTransactionModel.cs" />
+    <Compile Include="..\..\src\ProjectModel\ProjectInfo.cs" Link="ProjectModel\ProjectInfo.cs" />
+    <Compile Include="..\..\src\ProjectModel\XFBusinessContent.cs" Link="ProjectModel\XFBusinessContent.cs" />
+    <Compile Include="..\..\src\ProjectModel\XFCPMapContent.cs" Link="ProjectModel\XFCPMapContent.cs" />
+    <Compile Include="..\..\src\ProjectModel\XFDatatypeContent.cs" Link="ProjectModel\XFDatatypeContent.cs" />
+    <Compile Include="..\..\src\ProjectModel\XFInterfaceContent.cs" Link="ProjectModel\XFInterfaceContent.cs" />
+    <Compile Include="..\..\src\ProjectModel\XFLogicElements.cs" Link="ProjectModel\XFLogicElements.cs" />
+    <Compile Include="..\..\src\ProjectModel\XFProgramFrame.cs" Link="ProjectModel\XFProgramFrame.cs" />
+    <Compile Include="..\..\src\ProjectModel\XFProject.cs" Link="ProjectModel\XFProject.cs" />
+    <Compile Include="..\..\src\ProjectModel\XFTaskContent.cs" Link="ProjectModel\XFTaskContent.cs" />
+    <Compile Include="..\..\src\shared\CommonType.cs" Link="shared\CommonType.cs" />
+    <Compile Include="..\..\src\shared\DataTypeMap.cs" Link="shared\DataTypeMap.cs" />
+    <Compile Include="..\..\src\shared\DiffInfo.cs" Link="shared\DiffInfo.cs" />
+    <Compile Include="..\..\src\shared\ECommonMode.cs" Link="shared\ECommonMode.cs" />
+    <Compile Include="..\..\src\shared\ExternalTypeMap.cs" Link="shared\ExternalTypeMap.cs" />
+    <Compile Include="..\..\src\shared\HelpDocument.cs" Link="shared\HelpDocument.cs" />
+    <Compile Include="..\..\src\shared\InterfaceInst.cs" Link="shared\InterfaceInst.cs" />
+    <Compile Include="..\..\src\shared\TableHelper.cs" Link="shared\TableHelper.cs" />
+    <Compile Include="..\..\src\shared\XFAbilityAttributes.cs" Link="shared\XFAbilityAttributes.cs" />
+    <Compile Include="..\..\src\shared\XFTDataInstances.cs" Link="shared\XFTDataInstances.cs" />
+    <Compile Include="..\..\src\utils\CommonModelHelper.cs" Link="utils\CommonModelHelper.cs" />
+    <Compile Include="..\..\src\utils\ModelInfoHelper.cs" Link="utils\ModelInfoHelper.cs" />
+    <Compile Include="..\..\src\utils\PPlatformLibInformation.cs" Link="utils\PPlatformLibInformation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

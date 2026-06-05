@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\结构型\Adapter\Adaptee.cs" Link="结构型\Adapter\Adaptee.cs" />
+    <Compile Include="..\..\src\结构型\Adapter\ClassAdapter.cs" Link="结构型\Adapter\ClassAdapter.cs" />
+    <Compile Include="..\..\src\结构型\Adapter\ObjectAdapter.cs" Link="结构型\Adapter\ObjectAdapter.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="创建型\AbstractFactory\" />
+    <Folder Include="创建型\Builder\" />
+    <Folder Include="创建型\FactoryMethod\" />
+    <Folder Include="创建型\Prototype\" />
+    <Folder Include="创建型\Singleton\" />
+    <Folder Include="结构型\Adapter\" />
+    <Folder Include="结构型\Bridge\" />
+    <Folder Include="结构型\Composite\" />
+    <Folder Include="结构型\Decorator\" />
+    <Folder Include="结构型\Facade\" />
+    <Folder Include="结构型\Flyweight\" />
+    <Folder Include="结构型\Proxy\" />
+    <Folder Include="行为型\ChainOfResponsibility\" />
+    <Folder Include="行为型\Command\" />
+    <Folder Include="行为型\Interpreter\" />
+    <Folder Include="行为型\Iterator\" />
+    <Folder Include="行为型\Mediator\" />
+    <Folder Include="行为型\Memento\" />
+    <Folder Include="行为型\Observer\" />
+    <Folder Include="行为型\State\" />
+    <Folder Include="行为型\Strategy\" />
+    <Folder Include="行为型\TemplateMethod\" />
+    <Folder Include="行为型\Visitor\" />
+  </ItemGroup>
+
+</Project>
