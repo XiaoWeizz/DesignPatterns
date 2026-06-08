@@ -10,6 +10,12 @@
     <Compile Include="..\..\src\结构型\Adapter\Adaptee.cs" Link="结构型\Adapter\Adaptee.cs" />
     <Compile Include="..\..\src\结构型\Adapter\ClassAdapter.cs" Link="结构型\Adapter\ClassAdapter.cs" />
     <Compile Include="..\..\src\结构型\Adapter\ObjectAdapter.cs" Link="结构型\Adapter\ObjectAdapter.cs" />
+    <Compile Include="..\..\src\结构型\Bridge\Protocol\Dlt645Protocol.cs" Link="结构型\Bridge\Protocol\Dlt645Protocol.cs" />
+    <Compile Include="..\..\src\结构型\Bridge\Protocol\ModbusRtuProtocol.cs" Link="结构型\Bridge\Protocol\ModbusRtuProtocol.cs" />
+    <Compile Include="..\..\src\结构型\Bridge\Protocol\Protocol.cs" Link="结构型\Bridge\Protocol\Protocol.cs" />
+    <Compile Include="..\..\src\结构型\Bridge\Transport\ITransport.cs" Link="结构型\Bridge\Transport\ITransport.cs" />
+    <Compile Include="..\..\src\结构型\Bridge\Transport\SerialPortTransport.cs" Link="结构型\Bridge\Transport\SerialPortTransport.cs" />
+    <Compile Include="..\..\src\结构型\Bridge\Transport\TcpTransport.cs" Link="结构型\Bridge\Transport\TcpTransport.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +25,8 @@
     <Folder Include="创建型\Prototype\" />
     <Folder Include="创建型\Singleton\" />
     <Folder Include="结构型\Adapter\" />
-    <Folder Include="结构型\Bridge\" />
+    <Folder Include="结构型\Bridge\Protocol\" />
+    <Folder Include="结构型\Bridge\Transport\" />
     <Folder Include="结构型\Composite\" />
     <Folder Include="结构型\Decorator\" />
     <Folder Include="结构型\Facade\" />
