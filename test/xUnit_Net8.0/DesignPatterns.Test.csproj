@@ -24,4 +24,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="创建型\" />
+    <Folder Include="行为型\" />
+  </ItemGroup>
+
 </Project>

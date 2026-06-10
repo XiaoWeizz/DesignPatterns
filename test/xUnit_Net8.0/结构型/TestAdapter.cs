@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Test
+namespace DesignPatterns.Test.结构型
 {
     public class TestAdapter
     {

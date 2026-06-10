@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit.Abstractions;
 
-namespace DesignPatterns.Test
+namespace DesignPatterns.Test.结构型
 {
     public class TestBridge : ConsoleCaptureTestBase
     {

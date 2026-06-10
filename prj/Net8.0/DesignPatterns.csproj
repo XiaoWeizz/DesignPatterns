@@ -16,6 +16,9 @@
     <Compile Include="..\..\src\结构型\Bridge\Transport\ITransport.cs" Link="结构型\Bridge\Transport\ITransport.cs" />
     <Compile Include="..\..\src\结构型\Bridge\Transport\SerialPortTransport.cs" Link="结构型\Bridge\Transport\SerialPortTransport.cs" />
     <Compile Include="..\..\src\结构型\Bridge\Transport\TcpTransport.cs" Link="结构型\Bridge\Transport\TcpTransport.cs" />
+    <Compile Include="..\..\src\结构型\Composite\BranchNode.cs" Link="结构型\Composite\BranchNode.cs" />
+    <Compile Include="..\..\src\结构型\Composite\LeafNode.cs" Link="结构型\Composite\LeafNode.cs" />
+    <Compile Include="..\..\src\结构型\Composite\Node.cs" Link="结构型\Composite\Node.cs" />
   </ItemGroup>
 
   <ItemGroup>
