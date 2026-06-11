@@ -19,6 +19,11 @@
     <Compile Include="..\..\src\结构型\Composite\BranchNode.cs" Link="结构型\Composite\BranchNode.cs" />
     <Compile Include="..\..\src\结构型\Composite\LeafNode.cs" Link="结构型\Composite\LeafNode.cs" />
     <Compile Include="..\..\src\结构型\Composite\Node.cs" Link="结构型\Composite\Node.cs" />
+    <Compile Include="..\..\src\结构型\Decorator\Decorator.cs" Link="结构型\Decorator\Decorator.cs" />
+    <Compile Include="..\..\src\结构型\Decorator\DecoratorA.cs" Link="结构型\Decorator\DecoratorA.cs" />
+    <Compile Include="..\..\src\结构型\Decorator\DecoratorB.cs" Link="结构型\Decorator\DecoratorB.cs" />
+    <Compile Include="..\..\src\结构型\Decorator\IStable.cs" Link="结构型\Decorator\IStable.cs" />
+    <Compile Include="..\..\src\结构型\Decorator\StableClass.cs" Link="结构型\Decorator\StableClass.cs" />
   </ItemGroup>
 
   <ItemGroup>
