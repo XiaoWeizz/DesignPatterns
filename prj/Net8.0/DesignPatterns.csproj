@@ -24,6 +24,17 @@
     <Compile Include="..\..\src\结构型\Decorator\DecoratorB.cs" Link="结构型\Decorator\DecoratorB.cs" />
     <Compile Include="..\..\src\结构型\Decorator\IStable.cs" Link="结构型\Decorator\IStable.cs" />
     <Compile Include="..\..\src\结构型\Decorator\StableClass.cs" Link="结构型\Decorator\StableClass.cs" />
+    <Compile Include="..\..\src\结构型\Facade\Builder.cs" Link="结构型\Facade\Builder.cs" />
+    <Compile Include="..\..\src\结构型\Facade\Compiler.cs" Link="结构型\Facade\Compiler.cs" />
+    <Compile Include="..\..\src\结构型\Facade\Parser.cs" Link="结构型\Facade\Parser.cs" />
+    <Compile Include="..\..\src\结构型\Facade\Scanner.cs" Link="结构型\Facade\Scanner.cs" />
+    <Compile Include="..\..\src\结构型\Flyweight\Character.cs" Link="结构型\Flyweight\Character.cs" />
+    <Compile Include="..\..\src\结构型\Flyweight\CharacterGlyph.cs" Link="结构型\Flyweight\CharacterGlyph.cs" />
+    <Compile Include="..\..\src\结构型\Flyweight\GlyphFactory.cs" Link="结构型\Flyweight\GlyphFactory.cs" />
+    <Compile Include="..\..\src\结构型\Flyweight\TextEditor.cs" Link="结构型\Flyweight\TextEditor.cs" />
+    <Compile Include="..\..\src\结构型\Proxy\Proxy.cs" Link="结构型\Proxy\Proxy.cs" />
+    <Compile Include="..\..\src\结构型\Proxy\RealSubject.cs" Link="结构型\Proxy\RealSubject.cs" />
+    <Compile Include="..\..\src\结构型\Proxy\Subject.cs" Link="结构型\Proxy\Subject.cs" />
   </ItemGroup>
 
   <ItemGroup>
